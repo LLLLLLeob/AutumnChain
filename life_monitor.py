@@ -66,8 +66,8 @@ def generate_obituary_content(last_run, days, scan_time, force_death=False):
 
     replacements = {
         "{{BIRTH_DATE}}": birth.strftime('%Y-%m-%d'),
-        "{{BIRTH_LUNAR}}": "农历一九九五年三月廿四",
-        "{{NAME}}": "朱俊伟",
+        "{{BIRTH_LUNAR}}": "农历二零零八年五月初四",
+        "{{NAME}}"李家健",
         "{{DEATH_DATE}}": death_date.strftime('%Y-%m-%d'),
         "{{AGE}}": str(age),
         "{{MAX_DAYS}}": str(MAX_DAYS),
